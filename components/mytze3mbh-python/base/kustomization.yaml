@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  argocd/app-name: mytze3mbh-python
+  janus-idp.io/tekton: mytze3mbh-python
+  backstage.io/kubernetes-id: mytze3mbh-python
+  backstage.io/kubernetes-namespace: tssc-app 
+  app.kubernetes.io/part-of: mytze3mbh-python
+resources:
+  - deployment.yaml
+  - route.yaml
+  - service.yaml

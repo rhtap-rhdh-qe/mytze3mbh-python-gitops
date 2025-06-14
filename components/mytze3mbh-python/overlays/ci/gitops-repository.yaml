@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: mytze3mbh-python-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/mytze3mbh-python-gitops
